@@ -1,0 +1,203 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?", "namaste"],
+      "responses": [
+        "Hey there! How can I help you today?",
+        "Hi! What brings you here?",
+        "Hello! I'm here to assist you. What's on your mind?",
+        "Hey! Nice to meet you. How can I be of help?",
+        "Hi there! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "iiitn_greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good morning",
+        "good evening",
+        "good afternoon",
+        "namaste"
+      ],
+      "responses": [
+        "Namaste! Welcome to IIIT Nagpur's virtual assistant. How may I assist you today?",
+        "Hello there! I'm your guide to everything about IIIT Nagpur. What would you like to know?",
+        "Hey! Great to see you here. I'm ready to share all the exciting details about IIIT Nagpur. What interests you?",
+        "Hi! Welcome to IIIT Nagpur's information hub. I'm here to help you discover our institute. What would you like to explore?",
+        "Namaste! I'm your friendly guide to IIIT Nagpur. Feel free to ask me anything about our institute!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "name", "what's your name", "who are you", "what should I call you"],
+      "responses": [
+        "I'm your friendly IIIT Nagpur assistant! You can call me Ribot.",
+        "I'm Ribot, your guide to IIIT Nagpur!",
+        "You can call me Ribot. I'm here to help you learn about IIIT Nagpur!"
+      ]
+    },
+    {
+      "tag": "iiitn_about",
+      "patterns": ["tell me about IIIT Nagpur", "what is IIIT Nagpur", "college information", "about the institute", "institute details"],
+      "responses": [
+        "Indian Institute of Information Technology, Nagpur (IIITN) is a premier engineering institute established in 2016 under the Public-Private Partnership (PPP) model by the Ministry of Education, Government of India. Recognized as an Institute of National Importance, IIITN aims to impart high-quality education and promote research in Information Technology and allied fields.\n\nKey Details:\n- Established: 2016\n- Type: Public-Private Partnership (PPP)\n- Location: Waranga, Nagpur, Maharashtra, India\n- Campus Size: 100 acres\n- Director: Dr. Prem Lal Patel\n- Mentor Institute: Visvesvaraya National Institute of Technology (VNIT), Nagpur\n\nFor more information, visit: iiitn.ac.in"
+      ]
+    },
+    {
+      "tag": "iiitn_courses",
+      "patterns": ["what courses are offered", "available programs", "which branches are there", "what can I study here", "courses available", "programs offered", "academic programs"],
+      "responses": [
+        "IIIT Nagpur offers the following programs:\n\nUndergraduate Programs (B.Tech):\n1. Computer Science & Engineering (CSE) - 223 seats\n2. CSE - Artificial Intelligence & Machine Learning (AIML) - 66 seats\n3. CSE - Data Science & Analytics (DSA) - 66 seats\n4. CSE - Human Computer Interaction & Gaming Technology (HCIGT) - 66 seats\n5. Electronics & Communication Engineering (ECE) - 150 seats\n6. ECE - Internet of Things (IoT) - 66 seats\n\nPostgraduate Programs:\n1. M.Tech in Computer Science (2 years)\n2. MBA in Digital Business (2 years)\n\nDoctoral Programs (Ph.D.):\n1. Computer Science & Engineering\n2. Electronics & Communication Engineering\n\nEach program follows a semester system with:\n- 8 semesters for B.Tech\n- 4 semesters for M.Tech\n- Flexible duration for Ph.D."
+      ]
+    },
+    {
+      "tag": "iiitn_admission",
+      "patterns": ["how to get admission", "admission process", "entrance exam", "how to apply", "selection process", "admission criteria", "eligibility criteria"],
+      "responses": [
+        "Admission Process for IIIT Nagpur:\n\nB.Tech Programs:\n1. Eligibility:\n   - 10+2 with Physics and Mathematics as compulsory subjects\n   - Minimum 75% aggregate in 10+2 (65% for SC/ST/PwD)\n   - Valid JEE Main score\n\n2. Selection Process:\n   - Through JoSAA/CSAB counseling\n   - Based on JEE Main rank\n   - Category-wise seat allocation\n\nM.Tech Programs:\n1. Eligibility:\n   - B.Tech/B.E. in relevant discipline\n   - Minimum 60% marks (55% for SC/ST/PwD)\n   - Valid GATE score\n\n2. Selection Process:\n   - GATE score based counseling\n   - Written test and interview for non-GATE candidates\n\nPh.D. Programs:\n1. Eligibility:\n   - Master's degree in relevant field\n   - Minimum 60% marks (55% for SC/ST/PwD)\n\n2. Selection Process:\n   - Written test\n   - Interview\n   - Research proposal evaluation"
+      ]
+    },
+    {
+      "tag": "iiitn_fees",
+      "patterns": ["what is the fee structure", "college fees", "tuition fees", "how much is the fee", "annual fees", "semester fees", "fee details"],
+      "responses": [
+        "Fee Structure for IIIT Nagpur:\n\nB.Tech Programs:\n- Tuition Fee (per semester): ₹99,000\n- Other Fees (per semester): ₹15,150\n- Annual Fees: ₹700\n- One-Time Fees (first 2 semesters): ₹4,000\n- Total (First Year): ₹1,23,850\n\nPh.D. Programs:\n- Tuition Fee (per semester): ₹35,000\n- Development Fee (per semester): ₹6,000\n- Registration Fee (per semester): ₹1,500\n- Library Charges (per semester): ₹2,000\n- Internet Fee (per semester): ₹1,000\n- Infrastructure Usage Fee (per semester): ₹2,000\n- Welfare Fee (per semester): ₹1,250\n- Gymkhana Activity & Magazine Fee (per semester): ₹1,250\n- Total (Annual): ₹1,00,000\n\nScholarships Available:\n1. Merit-based scholarships\n2. SC/ST scholarships\n3. EWS scholarships\n4. Institute scholarships\n5. Industry-sponsored scholarships"
+      ]
+    },
+    {
+      "tag": "iiitn_placements",
+      "patterns": ["placement details", "companies visiting", "job opportunities", "campus placements", "placement record", "package offered", "career opportunities"],
+      "responses": [
+        "Placement Statistics at IIIT Nagpur:\n\n- Placement Rate: Approximately 90%\n- Highest Package: ₹90 LPA\n- Average Package: ₹14 LPA\n\nTop Recruiters:\n- Google\n- Adobe\n- Infosys\n- TCS\n- Microsoft\n- Amazon\n- Goldman Sachs\n- Morgan Stanley\n- Qualcomm\n- Intel\n- Samsung\n- TCS Research\n\nCareer Support:\n- Dedicated placement cell\n- Career counseling\n- Resume building workshops\n- Mock interviews\n- Industry interaction sessions\n- Soft skills training\n- Technical interview preparation\n\nInternship Opportunities:\n- Summer internships\n- Winter internships\n- Research internships\n- Industry projects\n- International internships\n\nAlumni Network:\n- Strong alumni connections\n- Regular alumni meets\n- Mentorship programs\n- Industry networking events"
+      ]
+    },
+    {
+      "tag": "iiitn_research",
+      "patterns": ["research areas", "research work", "ongoing projects", "research facilities", "research domains", "research opportunities"],
+      "responses": [
+        "Research Focus Areas at IIIT Nagpur:\n\nComputer Science and Engineering:\n- Artificial Intelligence and Machine Learning\n- Deep Learning\n- Generative AI\n- Natural Language Processing\n- Parallel Computing\n- High-Performance Computing\n- Bioinformatics\n- Internet of Things (IoT)\n- Pattern Recognition\n- Cybersecurity\n- Blockchain Technology\n\nElectronics and Communication Engineering:\n- Signal Processing\n- Wireless Sensor Networks\n- VLSI Design\n- Embedded Systems\n- Communication Systems\n- RF and Microwave Engineering\n\nResearch Facilities:\n- High-performance computing cluster\n- IoT testbed\n- VLSI design tools\n- Cybersecurity lab\n- AI/ML research lab\n- Signal processing lab\n- Embedded systems lab\n\nResearch Support:\n- Research grants\n- Industry collaborations\n- International research partnerships\n- Conference travel support\n- Publication incentives\n\nStudent Research Opportunities:\n- Undergraduate research projects\n- Summer research internships\n- Research assistantships\n- Conference paper presentations\n- Patent filing support"
+      ]
+    },
+    {
+      "tag": "iiitn_location",
+      "patterns": [
+        "where is iiit nagpur",
+        "location",
+        "address",
+        "how to reach",
+        "campus location"
+      ],
+      "responses": [
+        "IIIT Nagpur is located at:\nSurvey No. 140,141/1\nBehind Br. Sheshrao Wankhade Shetkari Sahkari Soot Girni\nVillage - Waranga\nPO - Dongargaon (Butibori)\nNagpur - 441108\nMaharashtra, India\n\nHow to Reach:\n- 25 km from Nagpur Airport\n- 20 km from Nagpur Railway Station\n- Well-connected by road\n- Regular bus services available\n\nTransportation Options:\n- Institute buses\n- Public transport\n- Auto-rickshaws\n- Taxi services\n\nNearby Landmarks:\n- VNIT Nagpur (Mentor Institute)\n- Butibori Industrial Area\n- Mihan SEZ\n\nCampus Features:\n- Spread over 100 acres\n- Modern infrastructure\n- Green campus\n- Residential campus\n- Security surveillance\n- 24/7 power backup"
+      ]
+    },
+    {
+      "tag": "iiitn_hostel_facilities",
+      "patterns": [
+        "What are the hostel facilities?",
+        "Tell me about the hostels",
+        "Hostel amenities",
+        "Accommodation details"
+      ],
+      "responses": [
+        "IIIT Nagpur offers modern hostel facilities with options for 2-seater and 4-seater rooms. Each room is furnished with a bed, table, chair, and cupboard. The hostels are equipped with essential amenities to ensure a comfortable stay for students."
+      ]
+    },
+    {
+      "tag": "iiitn_hostel_rules",
+      "patterns": [
+        "What are the hostel rules?",
+        "Hostel regulations",
+        "Accommodation guidelines"
+      ],
+      "responses": [
+        "Upon arrival, new students must report to the OSD/AOSD to get room allocation after paying dues and registering. Students are required to vacate rooms when instructed by the institute or before vacations. For detailed rules, please refer to the official hostel rules document."
+      ]
+    },
+    {
+      "tag": "iiitn_student_clubs",
+      "patterns": [
+        "What student clubs are there?",
+        "Tell me about student organizations",
+        "Clubs and societies",
+        "Extracurricular activities"
+      ],
+      "responses": [
+        "IIIT Nagpur has a vibrant student community with various clubs under the Student Affairs Council (SAC). Notable clubs include:\n\n- **Tech Plethora**: The technical club focusing on coding and tech events.\n- **Roobaroo**: The cultural club organizing cultural events and fests.\n- **Crescendo**: The music club nurturing musical talents.\n- **Abhivyakti**: The literary club promoting literature and debates.\n\nThese clubs provide students with opportunities to develop skills beyond academics."
+      ]
+    },
+    {
+      "tag": "iiitn_campus_life",
+      "patterns": [
+        "Describe campus life",
+        "What is it like on campus?",
+        "Campus environment",
+        "Student life"
+      ],
+      "responses": [
+        "IIIT Nagpur boasts a sprawling 100-acre campus equipped with modern infrastructure. Students enjoy a blend of academic rigor and vibrant campus life, participating in various events, workshops, and social activities. The campus features spacious classrooms, well-equipped labs, a library, and recreational areas, fostering a holistic development environment."
+      ]
+    },
+    {
+      "tag": "iiitn_faculty_info",
+      "patterns": [
+        "Tell me about the faculty",
+        "Faculty details",
+        "Who teaches here?",
+        "Professors at IIIT Nagpur"
+      ],
+      "responses": [
+        "IIIT Nagpur has a distinguished faculty with expertise in various domains:\n\nFaculty Highlights:\n- Many faculty members are alumni of prestigious institutions like IITs and NITs\n- Active research in cutting-edge areas\n- Strong industry connections\n- Regular publications in top journals\n\nResearch Areas:\n- Artificial Intelligence and Machine Learning\n- Data Science and Analytics\n- Human-Computer Interaction\n- Internet of Things\n- Signal Processing\n- Parallel Computing\n- High-Performance Computing\n- Bioinformatics\n- Pattern Recognition\n\nNotable Faculty Members:\n- **Dr. Tausif Diwan**: Associate Dean with expertise in Parallel Computing\n- **Dr. Jitendra V. Tembhurne**: Research in Deep Learning and AI\n- **Dr. Pooja Jain**: Specializes in Signal Processing and Communication Systems\n\nFaculty Support:\n- Regular faculty development programs\n- Industry collaboration opportunities\n- Research funding support\n- International exchange programs"
+      ]
+    },
+    {
+      "tag": "about_bot",
+      "patterns": [
+        "tell me about yourself",
+        "who are you",
+        "what can you do",
+        "what is your purpose",
+        "introduce yourself"
+      ],
+      "responses": [
+        "I'm a virtual assistant created specifically for IIIT Nagpur. I can provide detailed information about our academic programs, campus facilities, admission procedures, and student life. I'm here to help prospective students, current students, and anyone interested in learning about our institute.",
+        "I'm an AI-powered chatbot designed specifically for IIIT Nagpur. My purpose is to provide accurate and up-to-date information about our institute, including courses, research opportunities, campus facilities, and admission details. How can I assist you today?",
+        "I'm your digital guide to IIIT Nagpur! I can help you with information about our B.Tech, M.Tech, and Ph.D. programs, campus life, research facilities, and more. What would you like to know about our institute?",
+        "I'm a virtual assistant programmed to help prospective and current students learn about IIIT Nagpur. I can provide information about academics, campus facilities, student activities, and admission procedures. What interests you?",
+        "I'm an AI chatbot created to be your information resource about IIIT Nagpur. I can answer questions about our academic programs, campus infrastructure, student life, and admission processes. How can I help you today?"
+      ]
+    },
+    {
+      "tag": "iiitn_facilities",
+      "patterns": ["what facilities are available", "campus facilities", "infrastructure", "amenities", "lab facilities", "campus infrastructure"],
+      "responses": [
+        "IIIT Nagpur offers excellent campus facilities:\n\nHostels:\n- Separate hostels for boys and girls\n- Spacious rooms with essential amenities\n- Common rooms on each floor\n- Indoor games facilities\n\nDining:\n- Canteens serving Indian cuisine\n- Menu overseen by Canteen Representative Association (CRA) and wardens\n- Hygienic food preparation\n\nSports:\n- Indoor games: Table Tennis, Chess, Carrom\n- Outdoor sports: Badminton, Cricket, Volleyball, Basketball\n- Sports complex with modern equipment\n\nAcademic Infrastructure:\n- Modern classrooms with smart boards\n- Well-equipped laboratories\n- Comprehensive library with digital resources\n- High-speed internet (1 Gbps)\n- Research facilities\n- Computer labs\n- Seminar halls\n\nOther Facilities:\n- Medical center\n- Student activity center\n- Incubation center\n- Conference halls\n- Guest house\n- Green campus with gardens"
+      ]
+    },
+    {
+      "tag": "iiitn_student_life",
+      "patterns": ["student activities", "campus life", "student clubs", "extra curricular", "college events", "student organizations"],
+      "responses": [
+        "Student Life at IIIT Nagpur:\n\nTechnical Clubs:\n- **Tech Plethora**: Coding and tech events\n- **Robotics Club**: Robotics and automation\n- **AI/ML Club**: Artificial Intelligence focus\n- **Cybersecurity Club**: Security and ethical hacking\n- **IoT Club**: Internet of Things projects\n\nCultural Clubs:\n- **Roobaroo**: Cultural events and fests\n- **Crescendo**: Music and performing arts\n- **Abhivyakti**: Literature and debates\n- **Photography Club**: Visual arts and photography\n- **Dance Club**: Various dance forms\n\nSports Activities:\n- Annual Sports Meet\n- Inter-college competitions\n- Regular tournaments\n- Adventure sports\n- Yoga and fitness programs\n\nEvents and Fests:\n- Annual Technical Fest (TechNova)\n- Cultural Fest (Udaan)\n- Hackathons\n- Coding competitions\n- Guest lectures\n- Industry visits\n- Alumni meets\n\nStudent Support:\n- Counseling services\n- Health center\n- Career guidance\n- Alumni network\n- Mentorship program\n- Academic support\n- Financial aid"
+      ]
+    },
+    {
+      "tag": "iiitn_student_population",
+      "patterns": [
+        "how many students",
+        "total students",
+        "student strength",
+        "number of students",
+        "student population",
+        "how many students are there"
+      ],
+      "responses": [
+        "IIIT Nagpur currently has approximately 1200 students across all programs. This includes:\n- B.Tech: ~800 students\n- M.Tech: ~200 students\n- Ph.D.: ~200 students\n\nThe institute maintains a healthy student-faculty ratio and provides excellent academic and research opportunities for all students.",
+        "As of the current academic year, IIIT Nagpur has around 1200 students enrolled in various programs:\n\nUndergraduate (B.Tech):\n- Computer Science and Engineering: ~400 students\n- Electronics and Communication Engineering: ~400 students\n\nPostgraduate (M.Tech):\n- Various specializations: ~200 students\n\nDoctoral (Ph.D.):\n- Multiple research areas: ~200 students\n\nThe institute follows a selective admission process to maintain academic excellence."
+      ]
+    }
+  ]
+}
